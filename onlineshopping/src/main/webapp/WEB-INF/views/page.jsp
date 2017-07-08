@@ -67,6 +67,14 @@
     <%@include file="contact.jsp" %>
     </c:if>
     
+    <c:if test="${userClickAllProducts == true }">  
+    <%@include file="listOfProducts.jsp" %>
+    </c:if>
+    
+    <c:if test="${userClickCategoryProducts == true }">  
+    <%@include file="listOfProducts.jsp" %>
+    </c:if>
+    
     </div>
   
  <%@include file="./shared/footer.jsp" %>
